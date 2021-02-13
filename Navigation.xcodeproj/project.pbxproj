@@ -13,6 +13,8 @@
 		22221C3825D7A83E00D9DBAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22221C3625D7A83E00D9DBAE /* Main.storyboard */; };
 		22221C3A25D7A84100D9DBAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22221C3925D7A84100D9DBAE /* Assets.xcassets */; };
 		22221C3D25D7A84100D9DBAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22221C3B25D7A84100D9DBAE /* LaunchScreen.storyboard */; };
+		22221C4625D7A8EE00D9DBAE /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22221C4525D7A8EE00D9DBAE /* ViewController2.swift */; };
+		22221C4925D7A8F800D9DBAE /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22221C4825D7A8F800D9DBAE /* ViewController3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		22221C3925D7A84100D9DBAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22221C3C25D7A84100D9DBAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22221C3E25D7A84100D9DBAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22221C4525D7A8EE00D9DBAE /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		22221C4825D7A8F800D9DBAE /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				22221C3025D7A83E00D9DBAE /* AppDelegate.swift */,
 				22221C3225D7A83E00D9DBAE /* SceneDelegate.swift */,
 				22221C3425D7A83E00D9DBAE /* ViewController.swift */,
+				22221C4525D7A8EE00D9DBAE /* ViewController2.swift */,
+				22221C4825D7A8F800D9DBAE /* ViewController3.swift */,
 				22221C3625D7A83E00D9DBAE /* Main.storyboard */,
 				22221C3925D7A84100D9DBAE /* Assets.xcassets */,
 				22221C3B25D7A84100D9DBAE /* LaunchScreen.storyboard */,
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22221C4925D7A8F800D9DBAE /* ViewController3.swift in Sources */,
 				22221C3525D7A83E00D9DBAE /* ViewController.swift in Sources */,
+				22221C4625D7A8EE00D9DBAE /* ViewController2.swift in Sources */,
 				22221C3125D7A83E00D9DBAE /* AppDelegate.swift in Sources */,
 				22221C3325D7A83E00D9DBAE /* SceneDelegate.swift in Sources */,
 			);
@@ -289,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6Q233F3ZPX;
 				INFOPLIST_FILE = Navigation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6Q233F3ZPX;
 				INFOPLIST_FILE = Navigation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
